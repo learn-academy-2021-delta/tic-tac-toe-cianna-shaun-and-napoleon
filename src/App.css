@@ -1,5 +1,37 @@
+h1 {
+  text-align: center;
+}
+
 .square{
   height: 100px;
   width: 100px;
   border: 2px solid black;
+  background: #fff;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 200px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  width: 200px;
 }
+
+.gameboard {
+  display: flex;
+  width: 620px;
+  flex-wrap: warp;
+  margin: 0 auto;
+}
+
+.square:focus {
+  outline: none;
+}
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
